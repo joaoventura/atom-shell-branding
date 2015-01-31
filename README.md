@@ -22,11 +22,11 @@ Open 'build.py' in a text editor and set the following parameters as you want:
     project_name = 'myapp'
     product_name = 'MyApp'
 
-If you need to change resource files, such as icons, check the 'resources' folder. In most cases, you will only want to change the icon files.
+If you need to change resource files, such as icons, use the 'resources' folder. In most cases, you will only want to change the icon files.
 
 Execute the python script with 'python build.py'. If everything worked fine, your rebranded atom-shell application will be in 'atom-shell/out/Release/' (or 'atom-shell/out/Debug/', depending on the configuration).
 
-For compilation errors, refer to the [atom-shell documentation](https://github.com/atom/atom-shell/tree/master/docs).
+For compilation errors, refer to the [atom-shell documentation](https://github.com/atom/atom-shell/tree/master/docs). This script assumes that you have a development machine with the prerequisites for your OS as mentioned in the documents.
 
 
 ## Architecture ##
